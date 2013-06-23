@@ -13,7 +13,15 @@ using namespace boost;
 #include <string>
 
 // [[Rcpp::export]]
-int main()
+void main()
 {
 
+std::string str = "hellooooooooo";
+std::string target = "o Bob";
+
+// Das ist jetzt das Suchpattern
+boost::regex re("ooooooooo");
+
+
+std::string result = boost::regex_replace(str, re, newtext);
 }
