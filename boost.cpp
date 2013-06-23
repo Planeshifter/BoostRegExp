@@ -25,3 +25,15 @@ boost::regex re("ooooooooo");
 std::string result = boost::regex_replace(str, re, target);
 Rcout << result;
 }
+
+
+
+//////////////////
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello World!\n";
+}
